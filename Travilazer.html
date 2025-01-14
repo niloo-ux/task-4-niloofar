@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travilazer</title>
+    <link rel="stylesheet" href="Travilazer.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-container">
+        <div class="header-container">
+          <img src="src/svg/logo.svg" alt="logo" />
+          <span class="header-text">Travalizer</span>
+        </div>
+        <div class="description-container">
+          <span class="description-content">
+            Artificial Intelligence giving you travel recommendations</span>
+        </div>
+        <div class="welcome-container">
+          <span class="welcome-content"
+            >Welcome Back, Please login to your account</span >
+        </div>
+        <div class="form-container">
+          <form>
+            <div class="form-email">
+              <label>Email</label>
+              <input
+                type="Email"
+                id="text"
+                placeholder="robert.langster@gmail.com"
+                required
+              />
+            </div>
+            <div class="form-password">
+              <label>Password</label>
+              <input type="password" id="Password" placeholder="" required />
+            </div>
+            <div class="remember-forget">
+              <label>
+                <input type="checkbox" required />
+                Remember me
+              </label>
+              <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+            <div class="buttons">
+              <button style="width:199px; height:48px; padding: 16px; border-radius: 8px; margin-left:50px;" type="submit">Log in</button>
+              <button style="width:199px; height:48px; padding: 16px; border-radius: 8px; margin-left:10px;" type="submit">Sign in</button>
+            </div>
+            <script>
+                <canvas id="myCanvas" width="300" height="150" style="border:20px solid grey"></canvas>
+                const c = document.getElementById("myCanvas");
+                const ctx = c.getContext("2d");
+
+                const grd = ctx.createLinearGradient(0, 0, 170, 0);
+                 grd.addColorStop(0, "black");
+                  grd.addColorStop(1, "white");
+
+                  ctx.fillStyle = grd;
+                  ctx.fillRect(20, 20, 150, 100);
+            </script>
+            <div class="login">
+              <span1>Or, login with</span1>
+              <span2>Facebook</span2>
+              <span3>LinkedIn</span3>
+              <span4>Google</span4>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="right-container">
+        <img src="/src/images/travel.png" alt="travel image" />
+      </div>
+    </div>
+    <div class="mobile">
+      <div class="left-logo">
+        <div class="logo-container">
+          <img src="/src/svg/Travilazer.svg" alt="Travilazer" />
+          <span>Travilazer</span>
+        </div>
+        <div class="Image">
+          <img src="/src/images/Travilazer image.jpg" alt="Traveling">
+        </div>
+        <section class="Description">
+          <h1>Artificial Intelligence giving you travel recommendations</h1>
+          <p>Welcome Back, Please login to your account</p>
+          <div class="form-container">
+            <form>
+              <div class="Email-form">
+                <label style="margin-right:500px;font-family:Inter,sans-serif;font-size: 16px;font-weight: 600; line-height: 16px; text-align:left;color: #2F3D4C; ">Email</label>
+                <input type="email" id="text" placeholder="robert.langster@gmail.com" required/><br>
+                <div class="password-form"><br>
+                <label style="margin-right: 500px;font-family: Inter,sans-serif;font-size: 16px; font-weight: 600; line-height: 16px;  text-align: left;color:#355B3E;">Password</label>
+                <input type="Password" id="password" placeholder="" required>
+                <div class="remember-forget">
+                  <label>
+                    <input type="checkbox" required />
+                    Remember me
+                  </label>
+                  <a href="#" class="forgot-password">Forgot password?</a>
+                  </div>
+                    <div class="buttons">
+                      <button style="width:199px; height:48px; padding: 16px; border-radius: 8px; margin-left:5px;" type="submit">Log in</button>
+                      <button style="width:199px; height:48px; padding: 16px; border-radius: 8px; margin-left:10px;" type="submit">Sign in</button>
+                    </div>
+                    <script>
+                    <canvas id="myCanvas" width="300" height="150" style="border:20px solid grey"></canvas>
+                    const C = document.getElementById("myCanvas");
+                    const ctx = c.getContext("2d");
+        
+                    const Grd = ctx.createLinearGradient(0, 0, 170, 0);
+                    grd.addColorStop(0, "black");
+                    grd.addColorStop(1, "white");
+        
+                    ctx.fillStyle = grd;
+                    ctx.fillRect(20, 20, 150, 100);
+                    </script>
+                  </div>
+                  <div class="login">
+                    <span>Or, login with</span>
+                  </div><br>
+                  <div class="comment">
+                    <span1>Facebook</span1>
+                    <span2>LinkedIn</span2>
+                    <span3>Google</span3>
+                  </div>
+                </div>
+                </div>
+              </div>
+              </form>
+        </section>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
